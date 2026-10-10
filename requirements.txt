@@ -1,0 +1,40 @@
+
+# LangChain core and integrations
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langgraph
+
+# Hugging Face embeddings
+langchain-huggingface
+sentence-transformers
+torch
+
+# Vector database
+langchain-chroma
+chromadb
+
+# BM25 keyword search
+rank-bm25
+
+# PDF parsing and OCR
+pdf2image
+pytesseract
+pymupdf
+pillow
+langchain-text-splitters
+
+# Google Generative AI SDK (optional if using langchain-google-genai only)
+google-generativeai
+
+# Monitoring (Prometheus metrics endpoint)
+prometheus-client
+
+# Loads GOOGLE_API_KEY from .env
+python-dotenv
+
+# API server that keeps the models loaded
+fastapi
+uvicorn
+requests

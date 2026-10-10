@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+.env
 # Distribution / packaging
 .Python
 build/
@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Chroma vector store (regenerated on ingestion)
+chroma_db/

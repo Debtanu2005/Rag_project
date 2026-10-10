@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+
+scrape_configs:
+  # demo.py runs on the host and serves metrics on port 8000
+  - job_name: rag-pipeline
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
